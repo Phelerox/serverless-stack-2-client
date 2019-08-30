@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { API } from "aws-amplify";
+import API from "@aws-amplify/api";
 import { Elements, StripeProvider } from "react-stripe-elements";
 import BillingForm from "../components/BillingForm";
 import config from "../config";
